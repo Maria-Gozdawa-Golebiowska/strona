@@ -1,0 +1,72 @@
+
+    .navbar-nav .nav-link {
+        font-family: 'Arial', sans-serif; 
+        color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+    }
+
+    .splash {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background-image: url("https://i.postimg.cc/CKQNJXkK/Background-Image.jpg");
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+      
+    
+    }
+    
+    .splash-inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }    
+    
+    .page-title {
+        color: white;
+        font-size: 45px;
+        letter-spacing: 2px;
+        font-style: italic;
+        font-family: 'Nanum Myeongjo';
+    }
+    
+    .splash p {
+        color: white;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 7px;
+        font-size:  60px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .splash .btn {
+        background-color: #f0cd6c;
+        color: white;
+        border: 0;        
+        padding: 20px 20px;
+        cursor: pointer;
+        font-family: 'Poiret One', sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    .splash .btn:hover {
+        background: white;
+        color: black;
+    }
+
+
+    @media (max-width: 767px) {
+        
+        .page-title {
+            color: white;
+            font-size: 35px;
+        }
+        .splash p{
+            font-size: 30px;
+            margin-top: 20px;
+        }
+    }
