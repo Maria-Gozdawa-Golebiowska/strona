@@ -1,21 +1,35 @@
 .container {
     max-width: 1140px;
     padding-top: 55px;
-    padding-bottom: 96px;
+    padding-bottom: 69px;
 
 }
 
 section {
     padding-top: 96px;
-    padding-bottom: 96px;
+    padding-bottom: 68px;
 }
 
 .navbar-nav .nav-link {
     font-family: 'Arial', sans-serif; 
-    color: white;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-top: 30px;
     }
+.navbar-nav {
+    padding-right: 150px;
+}   
+
+.logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 170px;
+}
+    .custom-navbar .navbar-nav .nav-link {
+        color: white;
+    }
+    
 
 .splash {
         height: 100vh;
@@ -145,7 +159,37 @@ font-family: 'Poiret One', sans-serif;
 }
     
 
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    margin: 0 10px;
 
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.company-text {
+    font-family: 'Nanum Myeongjo';
+    font-size: 12px;
+    padding-left: 40px;
+
+
+}
 
 @media (max-width: 767px) {
         
@@ -158,4 +202,28 @@ font-family: 'Poiret One', sans-serif;
             font-size: 30px;
             margin-top: 20px;
         }
+
+        .navbar-nav .nav-link {
+            font-family: 'Arial', sans-serif; 
+            margin-right: 20px;
+            margin-top: 10px;
+            }
+
+        .navbar-toggler-icon {
+            text-align: right;
+            width: 55px;
+            height: 50px;
+            color: #fff;
+            padding: 20px;
+        }
+
+        footer a {
+            text-align: center;
+        }
+        .company-text {
+            text-align: center;
+            padding-left: 0;
+            margin-bottom: 40px;
+        }   
+
     }
