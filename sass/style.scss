@@ -1,0 +1,229 @@
+.container {
+    max-width: 1140px;
+    padding-top: 55px;
+    padding-bottom: 69px;
+
+}
+
+section {
+    padding-top: 96px;
+    padding-bottom: 68px;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Arial', sans-serif; 
+    margin-right: 20px;
+    margin-top: 30px;
+    }
+.navbar-nav {
+    padding-right: 150px;
+}   
+
+.logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 170px;
+}
+    .custom-navbar .navbar-nav .nav-link {
+        color: white;
+    }
+    
+
+.splash {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background-image: url("https://i.postimg.cc/CKQNJXkK/Background-Image.jpg");
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+      
+    
+    }
+
+.splash-inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }    
+    
+.page-title {
+        color: white;
+        font-size: 45px;
+        letter-spacing: 2px;
+        font-style: italic;
+        font-family: 'Nanum Myeongjo';
+    }
+    
+.splash p {
+        color: white;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 7px;
+        font-size:  60px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+.splash .btn {
+        background-color: #f0cd6c;
+        color: white;
+        border: 0;        
+        padding: 20px 20px;
+        cursor: pointer;
+        font-family: 'Poiret One', sans-serif;
+        letter-spacing: 2px;
+    }
+    
+.splash .btn:hover {
+        background: white;
+        color: black;
+    }
+
+
+
+
+.section-title {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.paragraph {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 33px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid#dec170;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    color:#dec170;
+  
+  }
+
+.fw-bold {
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+
+  }
+
+.col-lg-4 p {
+font-size: 17px;
+text-align: center;
+font-family: 'Poiret One', sans-serif;
+}
+  
+.portfolio {
+    background-color: lightgrey;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+}
+
+.card-body {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Poiret One', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 19px;
+    font-style: italic;
+    font-family: 'Nanum Myeongjo';
+}
+    
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    margin: 0 10px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.company-text {
+    font-family: 'Nanum Myeongjo';
+    font-size: 12px;
+    padding-left: 40px;
+
+
+}
+
+@media (max-width: 767px) {
+        
+        .page-title {
+            color: white;
+            font-size: 35px;
+        }
+
+        .splash p{
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .navbar-nav .nav-link {
+            font-family: 'Arial', sans-serif; 
+            margin-right: 20px;
+            margin-top: 10px;
+            }
+
+        .navbar-toggler-icon {
+            text-align: right;
+            width: 55px;
+            height: 50px;
+            color: #fff;
+            padding: 20px;
+        }
+
+        footer a {
+            text-align: center;
+        }
+        .company-text {
+            text-align: center;
+            padding-left: 0;
+            margin-bottom: 40px;
+        }   
+
+    }
